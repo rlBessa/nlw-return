@@ -1,8 +1,9 @@
-import { CloseButtom } from "./CloseButtom";
-import bugImageUrl from '../images/bug.svg';
-import ideaImageUrl from '../images/lightbulb.svg';
-import otherImageUrl from '../images/chat-centered-text.svg';
 import { useState } from "react";
+import { CloseButtom } from "../CloseButtom";
+import bugImageUrl from '../../images/bug.svg';
+import ideaImageUrl from '../../images/lightbulb.svg';
+import otherImageUrl from '../../images/chat-centered-text.svg';
+
 const feedbackTypes = {
     BUG: {
         title:'Bug',
