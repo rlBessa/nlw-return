@@ -1,5 +1,7 @@
 import express from 'express'
+import cors from 'cors'
 import { routes } from './routes';
+
 
 // GET, POST, PUT, PATCH, DELETE
 // GET = Buscar informações
@@ -9,9 +11,10 @@ import { routes } from './routes';
 // DELETE = Remover uma informação de uma entidade
 
 const app = express();
-
+app.use(cors());
 app.use(express.json());
 app.use(routes);
+
 
 
 
