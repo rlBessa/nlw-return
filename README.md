@@ -1,4 +1,4 @@
 # nlw-return
 
 
-Creating a portfolio application using typescript - javascript - css - tailwind
+Creating a portfolio application using tailwind - typescript - javascript - css - html
